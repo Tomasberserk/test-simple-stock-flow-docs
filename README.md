@@ -41,7 +41,11 @@ para llevarla a un stack distinto. El código es el medio, no el fin.
 | [`spec-.net/`](spec-.net/) | El mismo sistema especificado para un backend .NET |
 
 Las dos versiones describen el **mismo producto** (las mismas historias, reglas de negocio y
-endpoints); cambian las decisiones de tecnología. Ninguna de las dos es el stack del reto.
+endpoints) bajo una **arquitectura hexagonal**.
+
+Para la resolución del reto en PHP (Laravel) y React, hemos traducido formalmente esas decisiones a **Arquitectura Onion (Cebolla)**:
+👉 **[onion-architecture.md](onion-architecture.md)** — Definición de anillos, 5 puertos Inbound, 10 Outbound y reglas de dependencia.
+
 
 ## Cómo se lee el spec
 
