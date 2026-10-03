@@ -39,6 +39,8 @@ para llevarla a un stack distinto. El código es el medio, no el fin.
 |---|---|
 | [`spec-python/`](spec-python/) | El spec de Simple Stock Flow escrito para un backend Python |
 | [`spec-.net/`](spec-.net/) | El mismo sistema especificado para un backend .NET |
+| [`spec-laravel/`](spec-laravel/) | La especificación técnica completa adaptada a Laravel + React bajo Arquitectura Onion |
+
 
 Las dos versiones describen el **mismo producto** (las mismas historias, reglas de negocio y
 endpoints) bajo una **arquitectura hexagonal**.
